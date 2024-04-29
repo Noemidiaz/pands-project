@@ -4,6 +4,6 @@
 
 ![Flower](https://www.istockphoto.com/photo/purple-iris-flowers-with-water-drops-from-the-rain-in-the-garden-close-up-spring-gm1403859577-456265642)
 
-![Irispurple](https://www.istockphoto.com/photo/siberian-iris-gm174632734-9060295)
+![purple](https://www.istockphoto.com/photo/siberian-iris-gm174632734-9060295)
 
 This project focuses on the renowned Fisher's Iris data set 

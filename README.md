@@ -13,3 +13,12 @@
 ![Iris Flowers](https://live.staticflickr.com/387/18749262238_59870d95bd_n.jpg)
 
 This project focuses on the renowned Fisher's Iris data set 
+
+
+References:
+
+- Pandas: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
+
+- Real Python
+
+- W3 Schools

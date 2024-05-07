@@ -12,7 +12,7 @@
 
 ![Iris Flowers](https://live.staticflickr.com/387/18749262238_59870d95bd_n.jpg)
 
-This project focuses onin the analysis of the renowned Fisher's Iris data set.
+This respository focuses in the analysis of the renowned Fisher's Iris data set as part of the Programming and Scripting module for the Higher Diploma in Data Analytics at ATU.
 
 
 References:

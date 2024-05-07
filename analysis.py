@@ -11,17 +11,22 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# Loading Iris data from seaborn
+# STEP 1: Load and save dataset.
 
+# Loading Iris data from seaborn
 df = pd.read_csv ("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
 
-
-# Save the dataset to a file in the repository
+# Download and save the Iris dataset to a file in the repository
 df.to_csv("iris.csv", index=False)
 
-# STEP 1.Examining data set.
+
+# STEP 2.Examining data set.
+
 # Have a look the data
 print(df) 
+
+# Describe the data set
+print(df.describe())
 
 # prints the number of rows and columns in the dataset
 print(df.shape)
@@ -32,9 +37,17 @@ print (df.iloc [0])
 # Analysis of the species
 print (df ["species"])
 
-# Count Iris of each species
+# Count the number of Iris of each species type
 print (df["species"].value_counts())
 
-# STEP 2. Types of variables
-# STEP 3. One variable Plot
+
+# STEP 3. Types of variables
+
+# Inspect types of variables
+print(df.dtypes)
+
+
+# STEP 4. One variable Plot
+
+# cherry pie Iris species type
 # STEP 4. scatter plot of each of pair of variables

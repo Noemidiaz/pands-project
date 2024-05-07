@@ -1,5 +1,5 @@
 # analysis.py
-# This is my analysis of Fisher's Iris data set
+# This is my code used for the analysis of Fisher's Iris data set
 # Author: Noemi Diaz
 
 

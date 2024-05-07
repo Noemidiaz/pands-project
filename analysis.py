@@ -16,11 +16,14 @@ import matplotlib.pyplot as plt
 df = pd.read_csv ("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
 
 
-# Examining data set
+# Save the dataset to a file in the repository
+df.to_csv("iris.csv", index=False)
+
+# STEP 1.Examining data set.
 # Have a look the data
 print(df) 
 
-# prints the no of rows and columns in the dataset
+# prints the number of rows and columns in the dataset
 print(df.shape)
 
 # Look at the first row
@@ -31,3 +34,7 @@ print (df ["species"])
 
 # Count Iris of each species
 print (df["species"].value_counts())
+
+# STEP 2. Types of variables
+# STEP 3. One variable Plot
+# STEP 4. scatter plot of each of pair of variables

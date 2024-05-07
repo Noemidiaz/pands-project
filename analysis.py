@@ -22,16 +22,16 @@ df.to_csv("iris.csv", index=False)
 
 # STEP 2.Examining data set.
 
-# Have a look the data
+# Have a look the data.
 print(df) 
 
-# Describe the data set
+# Describe the data set.
 print(df.describe())
 
-# prints the number of rows and columns in the dataset
+# prints the number of rows and columns in the dataset: 150 rows and 5 columns.
 print(df.shape)
 
-# Look at the first row
+# Look at the first row.
 print (df.iloc [0])
 
 # Analysis of the species

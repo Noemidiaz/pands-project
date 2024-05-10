@@ -1,7 +1,6 @@
 # pands-project
 
 
-![irisf](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcNXq50FUh8mbSOda2ftmbb0Zf6KeCPeUjfg&s)
 ![irisl](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpTfCeXAg2M1NblVGoTo2gT-wrusoSgufS1AIbfKCFMFlXuO-dA97pX9Z_MSC7otrelK0&usqp=CAU)
 
 
@@ -20,7 +19,7 @@ This respository focuses in the analysis of the renowned Fisher's Iris data set 
 Image by sciencedirect.com
 
 
-# References:
+## References:
 
 - Pandas: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
 
@@ -29,3 +28,7 @@ Image by sciencedirect.com
 - W3 Schools
 
 - https://www.sciencedirect.com/topics/mathematics/virginica
+
+Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.
+
+‌

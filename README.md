@@ -27,6 +27,9 @@ Image by sciencedirect.com
 
 - W3 Schools
 
+- Matplotlib: 
+Compute and plot a histogram: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html
+
 - https://www.sciencedirect.com/topics/mathematics/virginica
 
 Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.

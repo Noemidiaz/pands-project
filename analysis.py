@@ -51,7 +51,7 @@ print(df.dtypes)
 
 # Variable 1: Species (object). Each type is equally represented.
 
-# Variable x is species. 
+# Variable X is species. 
 spe = df['species']
 # Show
 print(spe)
@@ -62,20 +62,16 @@ plt.hist(spe, bins=5, color='Thistle', edgecolor='black')
 plt.xlabel('species')
 plt.ylabel('')
 plt.title('Histogram of Iris species')
+# Save the plot to a file (in this case png file)
+plt.savefig('species_histogram.png')
+# Show the plot
 plt.show()
 
-# Creating a pie chart to visualize types of Iris species
 
-y = np.array([50, 50, 50])
-mylabels = ["Setosa", "Versicolor", "Virginica"]
-
-plt.pie(y, labels = mylabels)
-plt.title("Types of Iris species")
-plt.show() 
 
 # Variable 2: Sepal length (float).
 
-# Variable x is sepal length. 
+# Variable X is sepal length. 
 sepallen = df['sepal_length']
 # Show
 print(sepallen)
@@ -86,11 +82,14 @@ plt.hist(sepallen, bins=5, color='rebeccapurple', edgecolor='black')
 plt.xlabel('sepal length')
 plt.ylabel('')
 plt.title('Histogram of Iris Sepal Length')
+# Save the plot to a file (in this case png file)
+plt.savefig('sepal_length_histogram.png')
+# Show the plot
 plt.show()
 
 # Variable 3: sepal width (float)
 
-# Variable x is sepal width. 
+# Variable X is sepal width. 
 sepalwd = df['sepal_width']
 # Show
 print(sepalwd)
@@ -101,36 +100,46 @@ plt.hist(sepalwd, bins=5, color='rebeccapurple', edgecolor='black')
 plt.xlabel('sepal width')
 plt.ylabel('')
 plt.title('Histogram of Iris Sepal width')
+# Save the plot to a file (in this case png file)
+plt.savefig('sepal_width_histogram.png')
+# Show the plot
 plt.show()
 
 # Variable 4: Petal length (float).
 
-# Variable x is petal length. 
+# Variable X is petal length. 
 petallen = df['petal_length']
 # Show
 print(petallen)
-#'sepal width' is the variable  to plot
+#'petal length' is the variable  to plot
 petallen = df['petal_length']
 # Plotting the histogram
 plt.hist(petallen, bins=5, color='rebeccapurple', edgecolor='black')
 plt.xlabel('petal length')
 plt.ylabel('')
 plt.title('Histogram of Iris Petal length')
+# Save the plot to a file (in this case png file)
+plt.savefig('petal_length_histogram.png')
+# Show plot
 plt.show()
 
 # Variable 5 : Petal width (float)
 
-# Variable x is petal width. 
+# Variable X is petal width. 
 petalwd = df['petal_width']
 # Show
 print(petalwd)
-#'sepal width' is the variable  to plot
+#'petal width' is the variable  to plot
 petalwd = df['petal_width']
 # Plotting the histogram
 plt.hist(petalwd, bins=5, color='rebeccapurple', edgecolor='black')
 plt.xlabel('petal width')
 plt.ylabel('')
 plt.title('Histogram of Iris Petal width')
+# Save the plot to a file (in this case png file)
+plt.savefig('petal_width_histogram.png')
+# Show the plot
 plt.show()
 
 # STEP 4. scatter plot of each of pair of variables
+

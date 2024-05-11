@@ -34,4 +34,5 @@ Compute and plot a histogram: https://matplotlib.org/stable/api/_as_gen/matplotl
 
 Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.
 
-‌
+‌- Pierrian Training:
+Export and save plot in png file. https://pieriantraining.com/python-tutorial-how-to-export-and-save-a-seaborn-plot/#:~:text=PNG%20(Portable%20Network%20Graphics)%20is,pyplot%20library.

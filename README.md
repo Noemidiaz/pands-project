@@ -32,6 +32,9 @@ https://realpython.com/visualizing-python-plt-scatter/
 
 - W3 Schools: https://www.w3schools.com/python/default.asp
 
+- Machine Learning +: Python scatter plot
+https://www.machinelearningplus.com/plots/python-scatter-plot/
+
 - Matplotlib: Compute and plot a histogram.
  https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html
 
@@ -43,5 +46,8 @@ https://www.sciencedirect.com/topics/mathematics/virginica
 
 - Pierrian Training: Export and save plot in png file. 
 https://pieriantraining.com/python-tutorial-how-to-export-and-save-a-seaborn-plot/#:~:text=PNG%20(Portable%20Network%20Graphics)%20is,pyplot%20library.
+
+- Analytics vidhya: Scatter Plot Visualization in Python using matplotlib.
+https://www.analyticsvidhya.com/blog/2024/02/scatter-plot-visualization-in-python-using-matplotlib/
 
 Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.

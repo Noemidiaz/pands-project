@@ -49,7 +49,7 @@ print(df.dtypes)
 
 # STEP 4.  Creating a Histogram for each variable.
 
-# Variable 1: Species (object). Each type is equally represented.
+# Variable 1: Species (object). Each type is equally represented (5 Iris setosa, 50 Iris virginica and 50 Iris versicolor).It is a balanced data set.
 
 # Variable X is species. 
 spe = df['species']
@@ -87,7 +87,7 @@ plt.savefig('sepal_length_histogram.png')
 # Show the plot
 plt.show()
 
-# Variable 3: sepal width (float)
+# Variable 3: Sepal width (float)
 
 # Variable X is sepal width. 
 sepalwd = df['sepal_width']
@@ -143,3 +143,32 @@ plt.show()
 
 # STEP 4. scatter plot of each of pair of variables
 
+# Sepal length vs sepal width
+
+# Extract data for sepal length, sepal width and species.
+sepallen = df['sepal_length']
+sepalwd = df['sepal_width']
+spe = df['species'].unique()
+
+# Define colors and markers for each species in the plot
+colors = ['indigo', 'green', 'yellow']  # Example colors
+markers = ['o', '^', 's']          # Example markers
+
+# Create scatter plot for each species
+plt.figure(figsize=(10, 8))
+for i, species in enumerate(spe):
+    species_data = df[df['species'] == species]
+    plt.scatter(species_data['sepal_length'], species_data['sepal_width'], color=colors[i], marker=markers[i], label=species, alpha=0.7)
+
+# Decorative details in the plot
+plt.title('Scatter Plot of Sepal Length vs Sepal Width by Species')
+plt.xlabel('Sepal Length')
+plt.ylabel('Sepal Width')
+plt.legend()
+# Save the plot to a file (in this case png file)
+plt.savefig('Sepal_Length_Sepal_Width_Scatter_Plot.png')
+# Show the plot.
+plt.show()
+
+
+# End

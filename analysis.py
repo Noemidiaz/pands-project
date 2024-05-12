@@ -28,7 +28,7 @@ print(df)
 # Describe the data set.
 print(df.describe())
 
-# prints the number of rows and columns in the dataset: 150 rows and 5 columns.
+# Prints the number of rows and columns in the dataset: 150 rows and 5 columns.
 print(df.shape)
 
 # Look at the first row.
@@ -141,9 +141,9 @@ plt.savefig('petal_width_histogram.png')
 # Show the plot
 plt.show()
 
-# STEP 4. scatter plot of each of pair of variables
+# STEP 4. Creating a Scatter plot of each of pair of variables taking into account types of species.
 
-# Sepal length vs sepal width
+# Scatter Plot 1: Sepal length vs sepal width.
 
 # Extract data for sepal length, sepal width and species.
 sepallen = df['sepal_length']
@@ -151,8 +151,8 @@ sepalwd = df['sepal_width']
 spe = df['species'].unique()
 
 # Define colors and markers for each species in the plot
-colors = ['indigo', 'green', 'yellow']  # Example colors
-markers = ['o', '^', 's']          # Example markers
+colors = ['indigo', 'green', 'yellow']  # Different colors for categorize Iris
+markers = ['o', '^', 's']          # Different markers for categorize Iris
 
 # Create scatter plot for each species
 plt.figure(figsize=(10, 8))
@@ -170,5 +170,31 @@ plt.savefig('Sepal_Length_Sepal_Width_Scatter_Plot.png')
 # Show the plot.
 plt.show()
 
+# Scatter Plot 2: Petal length vs Petal width.
+
+# Extract data for petal length , petal width and species.
+petallen = df['petal_length']
+petalwd = df['petal_width']
+spe = df['species'].unique()
+
+# Define colors and markers for each species in the plot.
+colors = ['indigo', 'green', 'yellow']  # Different colors for categorize Iris
+markers = ['o', '^', 's']          # Different markers for categorize Iris
+
+# Create scatter plot for each species
+plt.figure(figsize=(10, 8))
+for i, species in enumerate(spe):
+    species_data = df[df['species'] == species]
+    plt.scatter(species_data['petal_length'], species_data['petal_width'], color=colors[i], marker=markers[i], label=species, alpha=0.7)
+
+# Decorative details in the plot
+plt.title('Scatter Plot of Petal Length vs Petal Width by Species')
+plt.xlabel('Petal Length')
+plt.ylabel('Petal Width')
+plt.legend()
+# Save the plot to a file (in this case png file)
+plt.savefig('Petal_Length_Petal_Width_Scatter_Plot.png')
+# Show the plot.
+plt.show()
 
 # End

@@ -32,13 +32,13 @@ https://realpython.com/visualizing-python-plt-scatter/
 
 - W3 Schools: https://www.w3schools.com/python/default.asp
 
-- Machine Learning +: Python scatter plot
+- Machine Learning +: Python scatter plot.
 https://www.machinelearningplus.com/plots/python-scatter-plot/
 
 - Matplotlib: Compute and plot a histogram.
  https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html
 
- Types of markers for plots
+ - Matplotlib: Types of markers for plots.
  https://matplotlib.org/stable/api/markers_api.html
 
 - Science direct: Image. 
@@ -50,4 +50,4 @@ https://pieriantraining.com/python-tutorial-how-to-export-and-save-a-seaborn-plo
 - Analytics vidhya: Scatter Plot Visualization in Python using matplotlib.
 https://www.analyticsvidhya.com/blog/2024/02/scatter-plot-visualization-in-python-using-matplotlib/
 
-Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.
+- Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.

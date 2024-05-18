@@ -305,6 +305,17 @@ plt.savefig('Sepal_Width_Petal_Width_Scatter_Plot.png')
 # Show the plot.
 plt.show()
 
-# CORRELATION
+
+# MEASURE CORRELATION COEFFICIENT
+
+# Measure correlation 
+
+
+# Calculate correlation coefficients for all pairwise combinations
+
+df.corr()
+
+# Print the correlation matrix
+print(df.corr())
 
 # End

@@ -50,4 +50,7 @@ https://pieriantraining.com/python-tutorial-how-to-export-and-save-a-seaborn-plo
 - Analytics vidhya: Scatter Plot Visualization in Python using matplotlib.
 https://www.analyticsvidhya.com/blog/2024/02/scatter-plot-visualization-in-python-using-matplotlib/
 
+- Visual Studio Code: Import resolve failure.
+https://code.visualstudio.com/docs/python/editing#_importresolvefailure
+
 - Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.

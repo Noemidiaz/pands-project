@@ -20,7 +20,13 @@ df = pd.read_csv ("https://raw.githubusercontent.com/mwaskom/seaborn-data/master
 df.to_csv("iris.csv", index=False)
 
 
-# STEP 2.Examining data set.
+# STEP 2. Inspect types of variables.
+
+# Types of variables
+print(df.dtypes)
+
+
+# STEP 3.Examining data set.
 
 # Have a look the data.
 print(df) 
@@ -40,14 +46,26 @@ print (df ["species"])
 # Count the number of Iris of each species type
 print (df["species"].value_counts())
 
-
-# STEP 3. Inspect types of variables.
-
-# Types of variables
-print(df.dtypes)
+# Calculate the measure mean of numerical variables (float)
+print(df[["sepal_length","sepal_width", "petal_length", "petal_width"]].mean())
 
 
-# STEP 4. Creating a Histogram for each variable.
+# STEP 4. Generate and save variable summaries to a text file.
+
+# Create summary for numerical variables (float64)
+numerical_summary = df.describe(include=[np.number]) # 'Sepal length', 'sepal width', 'petal length', 'petal width' variables
+
+# Create summary for categorical variables (object)
+categorical_summary = df.describe(include=[object]) # 'Species' variable
+
+# Write the summaries to a text file
+with open('Summary_variable.txt', 'w') as file:
+    file.write("Numerical Variables Summary:\n")
+    file.write(numerical_summary.to_string())
+    file.write("\n\nCategorical Variables Summary:\n")
+    file.write(categorical_summary.to_string())
+
+# STEP 5. Creating a Histogram for each variable.
 
 # Variable 1: Species (object). Each type is equally represented (5 Iris setosa, 50 Iris virginica and 50 Iris versicolor).It is a balanced data set.
 
@@ -141,7 +159,7 @@ plt.savefig('petal_width_histogram.png')
 # Show the plot
 plt.show()
 
-# STEP 4. Creating a Scatter plot of each of pair of variables taking into account types of species.
+# STEP 6. Creating a Scatter plot of each of pair of variables taking into account types of species.
 
 # Scatter Plot 1: Sepal Length vs Sepal Width.
 
@@ -306,10 +324,10 @@ plt.savefig('Sepal_Width_Petal_Width_Scatter_Plot.png')
 plt.show()
 
 
-# STEP 5: Measure correlation coefficient.
+# STEP 7: Measure correlation coefficient.
 
 # Calculate correlation coefficient for all pairwise combinations.
-# Exclude all non-numeric variables for correlation calculation, in this case 'Species' (object).
+# Exclude all categorical (non-numeric) variables for correlation calculation, in this case 'Species' (object).
 numeric_df = df.select_dtypes(include=['float64', 'int64'])
 
 # Calculate correlation matrix.

@@ -36,6 +36,9 @@ https://flexiple.com/python/exploratory-data-analysis-on-iris-dataset
 - Kaggle: Create scatter plot.
  https://www.kaggle.com/code/holfyuen/tutorial-scatter-plots-in-python
 
+- Learn python: Statistical measures.
+https://learnpython.com/blog/how-to-summarize-data-in-python/
+
 - Machine Learning +: Python scatter plot.
 https://www.machinelearningplus.com/plots/python-scatter-plot/
 
@@ -63,9 +66,11 @@ https://realpython.com/visualizing-python-plt-scatter/
 - Science direct: Image. 
 https://www.sciencedirect.com/topics/mathematics/virginica
 
+- Stack over flow: Summaries variables to a text file
+https://stackoverflow.com/questions/30139243/saving-a-variable-in-a-text-file
+
 - Statology: Correlation matrix in python
 https://www.statology.org/correlation-matrix-python/
-https://www.statology.org/correlation-in-python/#:~:text=To%20calculate%20the%20correlation%20between%20two%20variables%20in,noise%20var2%20%3D%20var1%20%2B%20np.random.normal%280%2C%2010%2C%2050%29
 
 - Visual Studio Code: Import resolve failure.
 https://code.visualstudio.com/docs/python/editing#_importresolvefailure

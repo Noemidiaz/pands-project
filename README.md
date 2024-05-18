@@ -27,6 +27,9 @@ Image by sciencedirect.com
 - Pandas: Make a histogram.
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
 
+- Pandas: Exclude non-numeric varibales for matrix correlation.
+ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.select_dtypes.html
+
 - Real Python: Create a Scatter plot.
 https://realpython.com/visualizing-python-plt-scatter/
 

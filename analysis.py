@@ -313,15 +313,26 @@ plt.show()
 numeric_df = df.select_dtypes(include=['float64', 'int64'])
 
 # Calculate correlation matrix
-correlation_matrix = numeric_df.corr().round (2) # rounding correlation matrix
+correlation_matrix = numeric_df.corr().round (2) # rounding correlation matrix to 2 digits
 
 # Print correlation matrix
 print(correlation_matrix)
 
+# Generate a Heatmap to visualize the correlation matrix with all values obtained.
+
+sns.heatmap(correlation_matrix, cmap='RdPu', annot=True) #annot=True are numeric values annotations onto heatmap cells. 
+
+plt.title('Heatmap Correlation Matrix')
+
+# Save the plot to a file (in this case png file)
+plt.savefig('Correlation_matrix_Heatmap.png')
+
+# Show plot
+plt.show()
 
 
 
-# Generate a heatmap to visualize the correlation matrix
+
 
 
 # End

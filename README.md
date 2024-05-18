@@ -18,22 +18,32 @@
 
 This respository focuses in the analysis of the renowned Fisher's Iris data set as part of the Programming and Scripting module for the Higher Diploma in Data Analytics at ATU.
 
-content of respository:
-- README File
-- Iris.csv
-- analysis.py
-- summary_variable
-- Plots.png: Histograms, scatter plots and heat map correlation matrix
+Below is an overview of the content of this respository:
+
+- README File: This document provides an introduction about the respository. It includes the purpose, contents and  the analysis made using Python of Fisher's Iris data set. Also, It includes the methodology employed and a list of all URL references used.
+
+- Iris.csv: The data set investigated is downloaded into the respository in a .csv document. It is a simple text file to store data in a tabular format.
+
+- analysis.py:  this file contains all Python code, a language programing, which is uses to make the analysis of the data set. All statictis measures, plots, correlation between other is done by Python code and is organized in this document step by step.
+
+- summary_variable: It is a text file which shows an a concise and clear summary of information from data set. It is provides a brief of the relevant points or main statistical measures of variables in Fisher's Iris data set.
+
+- Plots.png: Finally, in this repository you can see .png files. These are use for storing a variety of plots/ graphics such as Histograms, Scatter plots and Heat map for correlation matrix.
 
 ## Analysis
 
-Types of iris image
+object investigations
+Types of iris image and quantity
 part of the iris as variables image
 
 ![partsofiris](https://ars.els-cdn.com/content/image/3-s2.0-B9780128147610000034-f03-01-9780128147610.jpg)
 Image by sciencedirect.com
 
+Correlation Heatmap
+
 ## Investigating data set using Python
+
+- save.fig() 
 
 ## Contribute
 
@@ -57,6 +67,9 @@ https://www.analyticsvidhya.com/blog/2024/02/scatter-plot-visualization-in-pytho
 
 - Flexiple: Heat map for correlation visualization.
 https://flexiple.com/python/exploratory-data-analysis-on-iris-dataset
+
+- GitHub Docs: README Format.
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 - Kaggle: Create scatter plot.
  https://www.kaggle.com/code/holfyuen/tutorial-scatter-plots-in-python

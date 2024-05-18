@@ -30,6 +30,9 @@ https://www.analyticsvidhya.com/blog/2024/02/scatter-plot-visualization-in-pytho
 - Datagy: How to plot a Heat map
  https://datagy.io/python-correlation-matrix/
 
+- Flexiple: Heat map for correlation visualization.
+https://flexiple.com/python/exploratory-data-analysis-on-iris-dataset
+
 - Kaggle: Create scatter plot.
  https://www.kaggle.com/code/holfyuen/tutorial-scatter-plots-in-python
 

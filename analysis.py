@@ -41,13 +41,13 @@ print (df ["species"])
 print (df["species"].value_counts())
 
 
-# STEP 3. Inspect types of variables
+# STEP 3. Inspect types of variables.
 
 # Types of variables
 print(df.dtypes)
 
 
-# STEP 4.  Creating a Histogram for each variable.
+# STEP 4. Creating a Histogram for each variable.
 
 # Variable 1: Species (object). Each type is equally represented (5 Iris setosa, 50 Iris virginica and 50 Iris versicolor).It is a balanced data set.
 
@@ -306,32 +306,27 @@ plt.savefig('Sepal_Width_Petal_Width_Scatter_Plot.png')
 plt.show()
 
 
-# MEASURE CORRELATION COEFFICIENT
+# STEP 5: Measure correlation coefficient.
 
-# Calculate correlation coefficients for all pairwise combinations
+# Calculate correlation coefficient for all pairwise combinations.
 # Exclude all non-numeric variables for correlation calculation, in this case 'Species' (object).
 numeric_df = df.select_dtypes(include=['float64', 'int64'])
 
-# Calculate correlation matrix
-correlation_matrix = numeric_df.corr().round (2) # rounding correlation matrix to 2 digits
-
-# Print correlation matrix
+# Calculate correlation matrix.
+correlation_matrix = numeric_df.corr().round (2) # rounding correlation matrix to 2 digits.
+# Print correlation matrix.
 print(correlation_matrix)
 
+
+# Heat map.
 # Generate a Heatmap to visualize the correlation matrix with all values obtained.
-
 sns.heatmap(correlation_matrix, cmap='RdPu', annot=True) #annot=True are numeric values annotations onto heatmap cells. 
-
+# Adding Heat map tittle
 plt.title('Heatmap Correlation Matrix')
-
 # Save the plot to a file (in this case png file)
 plt.savefig('Correlation_matrix_Heatmap.png')
-
 # Show plot
 plt.show()
-
-
-
 
 
 

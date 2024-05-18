@@ -308,14 +308,20 @@ plt.show()
 
 # MEASURE CORRELATION COEFFICIENT
 
-# Measure correlation 
-
-
 # Calculate correlation coefficients for all pairwise combinations
+# Exclude all non-numeric variables for correlation calculation, in this case 'Species' (object).
+numeric_df = df.select_dtypes(include=['float64', 'int64'])
 
-df.corr()
+# Calculate correlation matrix
+correlation_matrix = numeric_df.corr()
 
-# Print the correlation matrix
-print(df.corr())
+# Print correlation matrix
+print(correlation_matrix)
+
+
+
+
+# Generate a heatmap to visualize the correlation matrix
+
 
 # End

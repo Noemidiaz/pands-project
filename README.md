@@ -47,6 +47,10 @@ https://www.sciencedirect.com/topics/mathematics/virginica
 - Pierrian Training: Export and save plot in png file. 
 https://pieriantraining.com/python-tutorial-how-to-export-and-save-a-seaborn-plot/#:~:text=PNG%20(Portable%20Network%20Graphics)%20is,pyplot%20library.
 
+- Statology: Correlation matrix in python
+https://www.statology.org/correlation-matrix-python/
+https://www.statology.org/correlation-in-python/#:~:text=To%20calculate%20the%20correlation%20between%20two%20variables%20in,noise%20var2%20%3D%20var1%20%2B%20np.random.normal%280%2C%2010%2C%2050%29
+
 - Analytics vidhya: Scatter Plot Visualization in Python using matplotlib.
 https://www.analyticsvidhya.com/blog/2024/02/scatter-plot-visualization-in-python-using-matplotlib/
 

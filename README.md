@@ -11,12 +11,37 @@
 
 ![Iris Flowers](https://live.staticflickr.com/387/18749262238_59870d95bd_n.jpg)
 
-This respository focuses in the analysis of the renowned Fisher's Iris data set as part of the Programming and Scripting module for the Higher Diploma in Data Analytics at ATU.
+
+
 
 ## About this respository:
 
+This respository focuses in the analysis of the renowned Fisher's Iris data set as part of the Programming and Scripting module for the Higher Diploma in Data Analytics at ATU.
+
+content of respository:
+- README File
+- Iris.csv
+- analysis.py
+- summary_variable
+- Plots.png: Histograms, scatter plots and heat map correlation matrix
+
+## Analysis
+
+Types of iris image
+part of the iris as variables image
+
 ![partsofiris](https://ars.els-cdn.com/content/image/3-s2.0-B9780128147610000034-f03-01-9780128147610.jpg)
 Image by sciencedirect.com
+
+## Investigating data set using Python
+
+## Contribute
+
+You can submit a pull request regarding my code if you discover an error or if It should be updated.
+
+
+## Author 
+I am Noemi Diaz and I am currently studying  Science in Computing in Data Analytics at [ATU](https://www.atu.ie/).
 
 
 ## URL References:

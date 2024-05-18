@@ -20,15 +20,15 @@ This respository focuses in the analysis of the renowned Fisher's Iris data set 
 
 Below is an overview of the content of this respository:
 
-- README File: This document provides an introduction about the respository. It includes the purpose, contents and  the analysis made using Python of Fisher's Iris data set. Also, It includes the methodology employed and a list of all URL references used.
+- **README File**: This document provides an introduction about the respository. It includes the purpose, contents and  the analysis made using Python of Fisher's Iris data set. Also, It includes the methodology employed and a list of all URL references used.
 
-- Iris.csv: The data set investigated is downloaded into the respository in a .csv document. It is a simple text file to store data in a tabular format.
+- **Iris.csv**: The data set investigated is downloaded into the respository in a .csv document. It is a simple text file to store data in a tabular format.
 
-- analysis.py:  this file contains all Python code, a language programing, which is uses to make the analysis of the data set. All statictis measures, plots, correlation between other is done by Python code and is organized in this document step by step.
+- **analysis.py**:  this file contains all Python code, a language programing, which is uses to make the analysis of the data set. All statictis measures, plots, correlation between other is done by Python code and is organized in this document step by step.
 
-- summary_variable: It is a text file which shows an a concise and clear summary of information from data set. It is provides a brief of the relevant points or main statistical measures of variables in Fisher's Iris data set.
+- **summary_variable**: It is a text file which shows an a concise and clear summary of information from data set. It is provides a brief of the relevant points or main statistical measures of variables in Fisher's Iris data set.
 
-- Plots.png: Finally, in this repository you can see .png files. These are use for storing a variety of plots/ graphics such as Histograms, Scatter plots and Heat map for correlation matrix.
+- **Plots.png**: Finally, in this repository you can see .png files. These are use for storing a variety of plots/ graphics such as Histograms, Scatter plots and Heat map for correlation matrix.
 
 ## Analysis
 

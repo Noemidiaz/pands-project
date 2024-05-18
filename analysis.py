@@ -313,7 +313,7 @@ plt.show()
 numeric_df = df.select_dtypes(include=['float64', 'int64'])
 
 # Calculate correlation matrix
-correlation_matrix = numeric_df.corr()
+correlation_matrix = numeric_df.corr().round (2) # rounding correlation matrix
 
 # Print correlation matrix
 print(correlation_matrix)

@@ -48,7 +48,7 @@ _Image 2._ Giri, A. (2022, June 16). IRIS Flowers Classification using Machine L
 
 ## Investigating data set using Python
 
-In this analysis project, Python is used as the main method or tool. The reason why is due has powerful libraries for facilitate data manipulation and frames, statiscal operations, support for mathematical functions and visualization through graphics. The libraries are imported in the _analysis.py_ file.
+In this analysis project, Python is used as the main method or tool. The reason why is due has powerful libraries for facilitate data manipulation and frames, statistical operations, support for mathematical functions and visualization through graphics. The libraries are imported in the _analysis.py_ file.
 
 Some basic libraries imported are:
 ```
@@ -84,17 +84,31 @@ The iris data set is balanced, containing an equal number of Iris flower of each
 
 ![Summarydatatable](summary_data_table.png)
 
-In this table is observed that Sepal Length (7.9 cm) has the maximun cm measures and Petal Width the minimum measure (0.10 cm). In general, in these Iris flowers species, Sepal are bigger size than Petal.
+In this table is observed that Sepal Length (7.9 cm) has the maximun cm measure and Petal Width the minimum measure (0.10 cm). In general, in these Iris flowers species, Sepal are bigger size than Petal.
 
-In relation to metrics such as mean and stadard desviation there is a variability of results.
+In relation to metrics such as mean and standard desviation there is a variability of results.
 For example, Petal Lenght has the higher standar desviation (1.7) meaning that there is a higher dispersion of the data from the mean. On the other side, Sepal width (0.43) keeps the data points closer to the mean which is less disperse. Petal length is a higher variety in the flowers measurements.
 
-Next, you can observe the following histograms with data distribution of numerical variables:
+Next, you can observe the following histograms with data distribution of these numerical variables:
 
 ![ScreenshotHistogram](Screenshot_Histograms_IrisVariables.png)
 
+### Distinguishing features by species
 
-### Correlation Heatmap
+Below are graphs to show with detail each pair of variables taking into account the different iris flower species.
+
+![Scatterplot1](Figure_SepalLength_vs_PetalLength.png)
+![Scatterplot2](Figure_SepalLength_vs_PetalWidth.png)
+![Scatterplot3](Figure_SepalLength_vs_SepalWidth.png)
+![Scatterplot4](Figure_SepalWidth_vs_PetalWidth.png)
+![Scatterplot5](Figure_SepalWidth_vs_SepalLength.png)
+
+Interpratation of result:
+
+ Setosa usually shows to have shorter and wider sepals if is compared to Versicolor and Virginica.
+
+
+### Correlation 
 
 In this project is analyzed as well the correlation between each pair of variables , excluding the categorical variable 'Species'.
 

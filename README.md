@@ -95,7 +95,7 @@ Next you can observe the following histograms:
 ![HisotgramsTogether](c:\Users\noemi\Desktop\Images_iris_project\Screenshot_Histograms_IrisVariables.png)
 
 
-
+![Histograms]](image.png)
 
 ### Correlation Heatmap
 

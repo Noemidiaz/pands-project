@@ -22,13 +22,13 @@ Below is an overview of the content of this respository:
 
 - **README File**: This document provides an introduction about the respository. It includes the purpose, contents and  the analysis made using Python of Fisher's Iris data set. Also, It includes the methodology employed and a list of all URL references used.
 
-- **Iris.csv**: The data set investigated is downloaded into the respository in a .csv document. It is a simple text file to store data in a tabular format.
+- **iris.csv**: The data set investigated is downloaded into the respository in a .csv document. It is a simple text file to store data in a tabular format.
 
 - **analysis.py**:  this file contains all Python code, a language programing, which is uses to make the analysis of the data set. All statictis measures, plots, correlation between other is done by Python code and is organized in this document step by step.
 
 - **summary_variable**: It is a text file which shows an a concise and clear summary of information from data set. It is provides a brief of the relevant points or main statistical measures of variables in Fisher's Iris data set.
 
-- **Plots.png**: Finally, in this repository you can see .png files. These are use for storing a variety of plots/ graphics such as Histograms, Scatter plots and Heat map for correlation matrix.
+- **plots.png**: Finally, in this repository you can see .png files. These are use for storing a variety of plots/ graphics such as Histograms, Scatter plots and Heat map for correlation matrix.
 
 ## Introduction to an Analysis of Iris data set
 
@@ -79,11 +79,11 @@ The iris data set is balanced, containing an equal number of Iris flower of each
 
 There are 150 Iris flower in total to investigate.
 
-![HistogramIrisSpecies](Figure_1_Iris_Species.png)
+[HistogramIrisSpecies](Figure_1_Iris_Species.png)
 
 ### Overview Summary
 
-![SummaryDataTable](c:\Users\noemi\Desktop\Images_iris_project\summary_data_table.png)
+[SummaryDataTable](c:\Users\noemi\Desktop\Images_iris_project\summary_data_table.png)
 
 It is observed in this table that Sepal Length (7.9 cm) has the maximun cm measures and Petal Width the minimum measure (0.10 cm). In general, in these Iris flowers species, Sepal are bigger size than Petal.
 

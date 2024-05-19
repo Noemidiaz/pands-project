@@ -30,7 +30,22 @@ Below is an overview of the content of this respository:
 
 - **Plots.png**: Finally, in this repository you can see .png files. These are use for storing a variety of plots/ graphics such as Histograms, Scatter plots and Heat map for correlation matrix.
 
-## Analysis
+## Introduction to an Analysis of Iris data set
+
+This project has the aim to analyze the Fisher's Iris data set, particullary, the sepal and petal length and width of three different species of Iris flowers knowned as Setosa, Virginica and Versicolor. Therefore, there are five variables in total in this investigation classified as follows:
+
+- Categorial: Species (Setosa, Virginica and Versicolor). 1 variable.
+
+- Numerical: Sepal length, sepal width, petal length and petal width of each Iris type. 4 variables.
+
+![Irispetalandsepal](https://tse1.mm.bing.net/th?id=OIP.nfK3vGZkTa4GrO7yWpcS-QAAAA&pid=Api&P=0&h=180)
+
+## Investigating data set using Python
+
+- save.fig() 
+
+
+## Analysis and visualization
 
 object investigations
 Types of iris image and quantity
@@ -41,9 +56,7 @@ Image by sciencedirect.com
 
 Correlation Heatmap
 
-## Investigating data set using Python
 
-- save.fig() 
 
 ## Contribute
 

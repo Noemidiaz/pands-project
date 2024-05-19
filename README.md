@@ -5,7 +5,7 @@
 
 ## About this respository:
 
-This respository focuses in the analysis of the renowned Fisher's Iris data set as part of the Programming and Scripting module for the Higher Diploma in Data Analytics at ATU.
+This respository focuses in the analysis of the renowned ***Fisher's Iris data set*** as part of the Programming and Scripting module for the Higher Diploma in Data Analytics at ATU.
 
 Below is an overview of the content of this respository:
 
@@ -168,6 +168,18 @@ To obtained correlation matrix:
 ```
 correlation_matrix = numeric_df.corr()
 ```
+### Conclusion
+
+To sum up, the analysis of Fisher's Iris data set reveals key insights:
+
+- Strong and positive correlation between petal dimensions: Petal length and petal width (0.96). It  means that as longer are the petals on Iris flowers as much is increasing the petal wide.
+
+- Weak and negative correlation with sepal width: sepal length and sepal width (-0.12). It is not matter how much bigger or length has the iris sepal , Its wide won't increase its size too. It is not correlated.
+
+- Species differentation: Iris setosa displays more distinct measurements compared to Iris Versicolor and Virginica. Iris Setosa tends to have shorter and wider sepals. Also, smaller and shorter petals.
+
+Iris Versicolor and Virginica shows some overlap in some scatter plots. They are more coincidences.
+
 
 ## Contribute
 

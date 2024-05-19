@@ -38,7 +38,7 @@ This project has the aim to analyze the Fisher's Iris data set, particularly, th
 
 Therefore, there are five variables in total in this investigation classified as follows:
 
-- **Categorial**: Species (Setosa, Virginica and Versicolor). 1 variable.
+- **Categorical**: Species (Setosa, Virginica and Versicolor). 1 variable.
 
 - **Numerical**: Sepal length, sepal width, petal length and petal width. 4 variables.
 
@@ -48,14 +48,14 @@ _Image 2._ Giri, A. (2022, June 16). IRIS Flowers Classification using Machine L
 
 ## Investigating data set using Python
 
-In this analysis project, Python is used as the main method or tool. The reason why is due has powerful libraries for facilitate data manipulation, statiscal operations and visualization through graphics. The libraries are imported in the _analysis.py_ file.
+In this analysis project, Python is used as the main method or tool. The reason why is due has powerful libraries for facilitate data manipulation and frames, statiscal operations, support for mathematical functions and visualization through graphics. The libraries are imported in the _analysis.py_ file.
 
 Some basic libraries imported are:
 ```
-import pandas as pd (data manipulation and frames)
-import seaborn as sns (data visualization)
-import numpy as np (support for mathematical functions)
-import matplotlib.pyplot as plt (plotting and visualizing data)
+import pandas as pd 
+import seaborn as sns 
+import numpy as np 
+import matplotlib.pyplot as plt 
 
 ```
 
@@ -75,43 +75,72 @@ _Image 3._ by ScienceDirect.com | Science, health and medical journals, full tex
 
 ### Types of iris
 
-The iris data set is balanced, containing an equal number of Iris flower of each species, with 50 samples each (50 Setosa, 50 Versicolor, 50 Virginica). 
-
-There are 150 Iris flower in total to investigate.
+The iris data set is balanced, containing an equal number of Iris flower of each species, with 50 samples each (50 Setosa, 50 Versicolor, 50 Virginica). There are 150 Iris flower in total to investigate.
 
 ![HistogramIrisSpecies](Figure_1_Iris_Species.png)
 
+
 ### Overview Summary
 
-[SummaryDataTable](c:\Users\noemi\Desktop\Images_iris_project\summary_data_table.png)
+![Summarydatatable](summary_data_table.png)
 
-It is observed in this table that Sepal Length (7.9 cm) has the maximun cm measures and Petal Width the minimum measure (0.10 cm). In general, in these Iris flowers species, Sepal are bigger size than Petal.
+In this table is observed that Sepal Length (7.9 cm) has the maximun cm measures and Petal Width the minimum measure (0.10 cm). In general, in these Iris flowers species, Sepal are bigger size than Petal.
 
 In relation to metrics such as mean and stadard desviation there is a variability of results.
 For example, Petal Lenght has the higher standar desviation (1.7) meaning that there is a higher dispersion of the data from the mean. On the other side, Sepal width (0.43) keeps the data points closer to the mean which is less disperse. Petal length is a higher variety in the flowers measurements.
 
-Next you can observe the following histograms:
+Next, you can observe the following histograms with data distribution of numerical variables:
 
 ![ScreenshotHistogram](Screenshot_Histograms_IrisVariables.png)
 
 
 ### Correlation Heatmap
 
+In this project is analyzed as well the correlation between each pair of variables , excluding the categorical variable 'Species'.
+
+It is used a correlation matrix, which is defined as a matrix which shows the correlations between all the variables giving us a value between -1 and 1. It helps to summarize all data. For more info:[CorrelationMatrix](https://builtin.com/data-science/correlation-matrix).
+
+The correlation values range between -1 and 1:
+
++ Value of 1: stronger and perfect positive linear relationship.When one variable increases so does the value of the other.
+
++ Value of 0:  indicates there is no association between the two variables.
+
++ Value of -1: indictes negative association. When one variable increases, the other one decreases.
+
+![HeatmapCorrelation](Figure_Heatmap_CorrelationMatrix.png)
+
+In this study, the correlation is interpreted as follows:
+
+- ***Negative and weak correlation***
+Sepal length vs sepal width is the weakest and negative linear relationship (-0.12). This means that if the sepal length gets bigger its width won't increase its size too.
+Also, petal length vs sepal width (-0.43) and sepal width vs petal width (-037).
+
+- ***Positive and strong correlation***
+Petal length vs petal width (0.96) has the strongest and positive correlation. This means that as longer are the petals as longer is its width.
+Also, sepal length vs petal width (0.82) and sepal length vs petal length (0.87).
 
 ## How to run Python Code
 
-exploring the data
+To explore the data and calculate key statistical measures is used the following code:
+
 ```
 iris_data.min()
 iris_data.max()
 iris_data.mean()
 iris_data.median()
 iris_data.std()
-`
-Saving figures``
+
 ```
- save.fig() 
+
+To save plots or figures:
+
+``` 
+ plt.savefig()
 ```
+
+correlation matrix
+
 ## Contribute
 
 You can submit a pull request regarding my code if you discover an error or if It should be updated.
@@ -125,6 +154,9 @@ I am Noemi Diaz and I am currently studying Science in Computing in Data Analyti
 
 - Analytics vidhya: Scatter Plot Visualization in Python using matplotlib.
 https://www.analyticsvidhya.com/blog/2024/02/scatter-plot-visualization-in-python-using-matplotlib/
+
+- Builtin: Correlatin matrix.
+https://builtin.com/data-science/correlation-matrix
 
 - Datagy: Rounding correlation values.
  https://datagy.io/python-correlation-matrix/

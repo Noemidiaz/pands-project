@@ -39,6 +39,7 @@ This project has the aim to analyze the Fisher's Iris data set, particullary, th
 - Numerical: Sepal length, sepal width, petal length and petal width of each Iris type. 4 variables.
 
 ![Irispetalandsepal](https://tse1.mm.bing.net/th?id=OIP.nfK3vGZkTa4GrO7yWpcS-QAAAA&pid=Api&P=0&h=180)
+https://editor.analyticsvidhya.com/uploads/51518iris%20img1.png
 
 ## Investigating data set using Python
 

@@ -95,7 +95,7 @@ Next, you can observe the following histograms with data distribution of these n
 
 ### Distinguishing features by species
 
-Below are graphs to show with detail each pair of variables taking into account the different iris flower species.
+Below are graphs to show with detail characteristics of each pair of variables taking into account the different iris flower species.
 
 ![Scatterplot1](Figure_SepalLength_vs_PetalLength.png)
 ![Scatterplot2](Figure_SepalLength_vs_PetalWidth.png)
@@ -103,10 +103,11 @@ Below are graphs to show with detail each pair of variables taking into account 
 ![Scatterplot4](Figure_SepalWidth_vs_PetalWidth.png)
 ![Scatterplot5](Figure_SepalWidth_vs_SepalLength.png)
 
-Interpratation of result:
+In this study, the interpretation of result is:
 
- Setosa usually shows to have shorter and wider sepals if is compared to Versicolor and Virginica.
+ Iris Setosa usually shows to have shorter and wider sepals and smaller and shorter petals if is compared to Versicolor and Virginica. 
 
+Iris Virginica tends to be the specie with longest and wider petals and sepal.
 
 ### Correlation 
 
@@ -146,14 +147,36 @@ iris_data.median()
 iris_data.std()
 
 ```
+Importing a package that is not installed:
+
+```
+python -m pip install {package_name}
+```
 
 To save plots or figures:
 
 ``` 
  plt.savefig()
 ```
+To save a summary in a text file:
 
-correlation matrix
+```
+numerical_summary = df.describe(include=[np.number])
+categorical_summary = df.describe(include=[object])
+```
+To plot a visualization:
+
+```
+plt.hist()
+plt.scatter()
+sns.heatmap()
+```
+
+To obtained correlation matrix:
+
+```
+correlation_matrix = numeric_df.corr()
+```
 
 ## Contribute
 

@@ -32,7 +32,7 @@ Below is an overview of the content of this respository:
 
 ## Introduction to an Analysis of Iris data set
 
-The Iris flower data set or Fisher's Iris data set is a multivariate data set used and made famous by the British statistician and biologist Ronald Fisher in 1936 paper as described on ![Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.).
+The Iris flower data set or Fisher's Iris data set is a multivariate data set used and made famous by the British statistician and biologist Ronald Fisher in 1936 paper as described on [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.).
 
 This project has the aim to analyze the Fisher's Iris data set, particularly, the length and width of sepal and petal in just three types of species of Iris flowers knowned as Setosa, Versicolor and Virginica.
 
@@ -43,7 +43,7 @@ Therefore, there are five variables in total in this investigation classified as
 - **Numerical**: Sepal length, sepal width, petal length and petal width. 4 variables.
 
 ![IrisSpecies](https://editor.analyticsvidhya.com/uploads/51518iris%20img1.png)
-_Image 2._ Giri, A. (2022, June 16). IRIS Flowers Classification using Machine Learning. Machinelearning4you. https://machinelearning4ya.blogspot.com/2022/04/iris-flowers-classification-using.html
+_Image 2._ Giri, A. (2022, June 16). IRIS Flowers Classification using Machine Learning. Machinelearning4you.
 
 
 ## Investigating data set using Python
@@ -51,12 +51,12 @@ _Image 2._ Giri, A. (2022, June 16). IRIS Flowers Classification using Machine L
 In this analysis project, Python is used as the main method or tool. The reason why is due has powerful libraries for facilitate data manipulation and visualization through graphics. The libraries are imported in the _analysis.py_ file.
 
 Some basic libraries imported are:
-'''
+```
 - Pandas 
 - Matplotlib
-- seaborn: the raw data in the project is collected from ![seaborn-data](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv)
+- seaborn: the raw data in the project is collected from [seaborn-data](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv)
 - numpy
-'''
+```
 
 ## Analysis and visualization
 

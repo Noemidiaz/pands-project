@@ -177,7 +177,6 @@ To sum up, the analysis of Fisher's Iris data set reveals key insights:
 - Weak and negative correlation with sepal width: sepal length and sepal width (-0.12). It is not matter how much bigger or length has the iris sepal , Its wide won't increase its size too. It is not correlated.
 
 - Species differentation: Iris setosa displays more distinct measurements compared to Iris Versicolor and Virginica. Iris Setosa tends to have shorter and wider sepals. Also, smaller and shorter petals.
-
 Iris Versicolor and Virginica shows some overlap in some scatter plots. They are more coincidences.
 
 

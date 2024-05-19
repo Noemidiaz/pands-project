@@ -1,20 +1,6 @@
 # pands-project
 
-
-![irisl](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpTfCeXAg2M1NblVGoTo2gT-wrusoSgufS1AIbfKCFMFlXuO-dA97pX9Z_MSC7otrelK0&usqp=CAU)
-
-
-
-
-
-
-
-![Iris Flowers](https://live.staticflickr.com/387/18749262238_59870d95bd_n.jpg)
-
-![If](https://cdn.pixabay.com/photo/2013/01/27/13/15/flower-76336_1280.jpg)
 ![if](https://cdn.pixabay.com/photo/2023/02/10/17/55/iris-7781418_1280.jpg)
-![if2](https://cdn.pixabay.com/photo/2022/06/21/12/19/iris-7275736_1280.jpg)
-![if3](https://cdn.pixabay.com/photo/2016/09/14/18/10/iris-1669973_1280.jpg)
 
 
 ## About this respository:

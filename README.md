@@ -34,12 +34,12 @@ Below is an overview of the content of this respository:
 
 This project has the aim to analyze the Fisher's Iris data set, particullary, the sepal and petal length and width of three different species of Iris flowers knowned as Setosa, Virginica and Versicolor. Therefore, there are five variables in total in this investigation classified as follows:
 
-- Categorial: Species (Setosa, Virginica and Versicolor). 1 variable.
+- **Categorial**: Species (Setosa, Virginica and Versicolor). 1 variable.
 
-- Numerical: Sepal length, sepal width, petal length and petal width of each Iris type. 4 variables.
+- **Numerical**: Sepal length, sepal width, petal length and petal width of each Iris type. 4 variables.
 
-![Irispetalandsepal](https://tse1.mm.bing.net/th?id=OIP.nfK3vGZkTa4GrO7yWpcS-QAAAA&pid=Api&P=0&h=180)
 ![IrisSpecies](https://editor.analyticsvidhya.com/uploads/51518iris%20img1.png)
+_Image 2._ Giri, A. (2022, June 16). IRIS Flowers Classification using Machine Learning. Machinelearning4you. https://machinelearning4ya.blogspot.com/2022/04/iris-flowers-classification-using.html
 
 ## Investigating data set using Python
 
@@ -65,7 +65,7 @@ You can submit a pull request regarding my code if you discover an error or if I
 
 
 ## Author 
-I am Noemi Diaz and I am currently studying  Science in Computing in Data Analytics at [ATU](https://www.atu.ie/).
+I am Noemi Diaz and I am currently studying Science in Computing in Data Analytics at [ATU](https://www.atu.ie/).
 
 
 ## URL References:

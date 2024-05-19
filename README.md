@@ -92,9 +92,12 @@ For example, Petal Lenght has the higher standar desviation (1.7) meaning that t
 
 Next you can observe the following histograms:
 
-![Screenshot](c:\Users\noemi\Desktop\Images_iris_project\Screenshot_Histograms_IrisVariables.png)
+![HistogramIrisPetalLength](Histogram_IrisPetal-length.png)
+![alt text](Histogram_IrisPetal-width.png)
+![alt text](Histogram_IrisSepal-length.png)
+![alt text](Histogram_IrisSepal-width.png)
 
-
+![alt text](Screenshot_Histograms_IrisVariables.png)
 
 
 ### Correlation Heatmap

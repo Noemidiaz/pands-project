@@ -48,32 +48,51 @@ _Image 2._ Giri, A. (2022, June 16). IRIS Flowers Classification using Machine L
 
 ## Investigating data set using Python
 
-In this analysis project, Python is used as the main method or tool. The reason why is due has powerful libraries for facilitate data manipulation and visualization through graphics. The libraries are imported in the _analysis.py_ file.
+In this analysis project, Python is used as the main method or tool. The reason why is due has powerful libraries for facilitate data manipulation, statiscal operations and visualization through graphics. The libraries are imported in the _analysis.py_ file.
 
 Some basic libraries imported are:
 ```
-- Pandas 
-- Matplotlib
-- seaborn: the raw data in the project is collected from [seaborn-data](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv)
-- numpy
+import pandas as pd: Data manipulation and frames
+import seaborn as sns: data visualization
+import numpy as np: support for mathematical functions
+import matplotlib.pyplot as plt: for plotting and visualizing data
+
 ```
+
+The raw data in the project is collected from [seaborn-data](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv).
+
 
 ## Analysis and visualization
 
-object investigations
-Types of iris image and quantity
-part of the iris as variables image
-
 ![partsofiris](https://ars.els-cdn.com/content/image/3-s2.0-B9780128147610000034-f03-01-9780128147610.jpg)
-Image by sciencedirect.com
+_Image 3._ by ScienceDirect.com | Science, health and medical journals, full text articles and books. (n.d.).
+
+
+### Types of iris
+
+The iris data set is balanced, containing an equal number of Iris flower of each species, with 50 samples each.
+
+![HistogramIrisSpecies](Figure_1_Iris_Species.png)
+
+
 
 Correlation Heatmap
 
 
 ## How to run Python Code
 
+exploring the data
+```
+iris_data.min()
+iris_data.max()
+iris_data.mean()
+iris_data.median()
+iris_data.std()
+`
+Saving figures``
+```
  save.fig() 
-
+```
 ## Contribute
 
 You can submit a pull request regarding my code if you discover an error or if It should be updated.

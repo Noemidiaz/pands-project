@@ -79,7 +79,7 @@ The iris data set is balanced, containing an equal number of Iris flower of each
 
 There are 150 Iris flower in total to investigate.
 
-[HistogramIrisSpecies](Figure_1_Iris_Species.png)
+![HistogramIrisSpecies](Figure_1_Iris_Species.png)
 
 ### Overview Summary
 
@@ -92,12 +92,7 @@ For example, Petal Lenght has the higher standar desviation (1.7) meaning that t
 
 Next you can observe the following histograms:
 
-![HistogramIrisPetalLength](Histogram_IrisPetal-length.png)
-![alt text](Histogram_IrisPetal-width.png)
-![alt text](Histogram_IrisSepal-length.png)
-![alt text](Histogram_IrisSepal-width.png)
-
-![alt text](Screenshot_Histograms_IrisVariables.png)
+![ScreenshotHistogram](Screenshot_Histograms_IrisVariables.png)
 
 
 ### Correlation Heatmap

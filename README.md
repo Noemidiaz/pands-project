@@ -32,19 +32,31 @@ Below is an overview of the content of this respository:
 
 ## Introduction to an Analysis of Iris data set
 
-This project has the aim to analyze the Fisher's Iris data set, particullary, the sepal and petal length and width of three different species of Iris flowers knowned as Setosa, Virginica and Versicolor. Therefore, there are five variables in total in this investigation classified as follows:
+The Iris flower data set or Fisher's Iris data set is a multivariate data set used and made famous by the British statistician and biologist Ronald Fisher in 1936 paper as described on ![Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.).
+
+This project has the aim to analyze the Fisher's Iris data set, particularly, the length and width of sepal and petal in just three types of species of Iris flowers knowned as Setosa, Versicolor and Virginica.
+
+Therefore, there are five variables in total in this investigation classified as follows:
 
 - **Categorial**: Species (Setosa, Virginica and Versicolor). 1 variable.
 
-- **Numerical**: Sepal length, sepal width, petal length and petal width of each Iris type. 4 variables.
+- **Numerical**: Sepal length, sepal width, petal length and petal width. 4 variables.
 
 ![IrisSpecies](https://editor.analyticsvidhya.com/uploads/51518iris%20img1.png)
 _Image 2._ Giri, A. (2022, June 16). IRIS Flowers Classification using Machine Learning. Machinelearning4you. https://machinelearning4ya.blogspot.com/2022/04/iris-flowers-classification-using.html
 
+
 ## Investigating data set using Python
 
-- save.fig() 
+In this analysis project, Python is used as the main method or tool. The reason why is due has powerful libraries for facilitate data manipulation and visualization through graphics. The libraries are imported in the _analysis.py_ file.
 
+Some basic libraries imported are:
+'''
+- Pandas 
+- Matplotlib
+- seaborn: the raw data in the project is collected from ![seaborn-data](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv)
+- numpy
+'''
 
 ## Analysis and visualization
 
@@ -58,6 +70,9 @@ Image by sciencedirect.com
 Correlation Heatmap
 
 
+## How to run Python Code
+
+ save.fig() 
 
 ## Contribute
 
@@ -81,6 +96,8 @@ https://www.analyticsvidhya.com/blog/2024/02/scatter-plot-visualization-in-pytho
 
 - Flexiple: Heat map for correlation visualization.
 https://flexiple.com/python/exploratory-data-analysis-on-iris-dataset
+
+- Giri, A. (2022, June 16). IRIS Flowers Classification using Machine Learning. Machinelearning4you. https://machinelearning4ya.blogspot.com/2022/04/iris-flowers-classification-using.html
 
 - GitHub Docs: README Format.
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
@@ -127,7 +144,10 @@ https://www.statology.org/correlation-matrix-python/
 - Visual Studio Code: Import resolve failure.
 https://code.visualstudio.com/docs/python/editing#_importresolvefailure
 
+- Wikipedia: Information about Iris flower data set
+https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%20data%20set,example%20of%20linear%20discriminant%20analysis.
 - W3 Schools: https://www.w3schools.com/python/default.asp
 
 
 - Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.
+

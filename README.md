@@ -52,31 +52,52 @@ In this analysis project, Python is used as the main method or tool. The reason 
 
 Some basic libraries imported are:
 ```
-import pandas as pd: Data manipulation and frames
-import seaborn as sns: data visualization
-import numpy as np: support for mathematical functions
-import matplotlib.pyplot as plt: for plotting and visualizing data
+import pandas as pd (data manipulation and frames)
+import seaborn as sns (data visualization)
+import numpy as np (support for mathematical functions)
+import matplotlib.pyplot as plt (plotting and visualizing data)
 
 ```
 
-The raw data in the project is collected from [seaborn-data](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv).
+Also, the raw data in the project is collected from [seaborn-data](https://github.com/mwaskom/seaborn-data/blob/master/iris.csv).
 
+```
+df = pd.read_csv ("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv")
+
+```
 
 ## Analysis and visualization
 
 ![partsofiris](https://ars.els-cdn.com/content/image/3-s2.0-B9780128147610000034-f03-01-9780128147610.jpg)
+
 _Image 3._ by ScienceDirect.com | Science, health and medical journals, full text articles and books. (n.d.).
 
 
 ### Types of iris
 
-The iris data set is balanced, containing an equal number of Iris flower of each species, with 50 samples each.
+The iris data set is balanced, containing an equal number of Iris flower of each species, with 50 samples each (50 Setosa, 50 Versicolor, 50 Virginica). 
+
+There are 150 Iris flower in total to investigate.
 
 ![HistogramIrisSpecies](Figure_1_Iris_Species.png)
 
+### Overview Summary
+
+![SummaryDataTable](c:\Users\noemi\Desktop\Images_iris_project\summary_data_table.png)
+
+It is observed in this table that Sepal Length (7.9 cm) has the maximun cm measures and Petal Width the minimum measure (0.10 cm). In general, in these Iris flowers species, Sepal are bigger size than Petal.
+
+In relation to metrics such as mean and stadard desviation there is a variability of results.
+For example, Petal Lenght has the higher standar desviation (1.7) meaning that there is a higher dispersion of the data from the mean. On the other side, Sepal width (0.43) keeps the data points closer to the mean which is less disperse. Petal length is a higher variety in the flowers measurements.
+
+Next you can observe the following histograms:
+
+![HisotgramsTogether](c:\Users\noemi\Desktop\Images_iris_project\Screenshot_Histograms_IrisVariables.png)
 
 
-Correlation Heatmap
+
+
+### Correlation Heatmap
 
 
 ## How to run Python Code

@@ -11,7 +11,10 @@
 
 ![Iris Flowers](https://live.staticflickr.com/387/18749262238_59870d95bd_n.jpg)
 
-
+![If](https://cdn.pixabay.com/photo/2013/01/27/13/15/flower-76336_1280.jpg)
+![if](https://cdn.pixabay.com/photo/2023/02/10/17/55/iris-7781418_1280.jpg)
+![if2](https://cdn.pixabay.com/photo/2022/06/21/12/19/iris-7275736_1280.jpg)
+![if3](https://cdn.pixabay.com/photo/2016/09/14/18/10/iris-1669973_1280.jpg)
 
 
 ## About this respository:
@@ -105,9 +108,9 @@ Below are graphs to show with detail characteristics of each pair of variables t
 
 In this study, the interpretation of result is:
 
- Iris Setosa usually shows to have shorter and wider sepals and smaller and shorter petals if is compared to Versicolor and Virginica. 
++ Iris Setosa usually shows to have shorter and wider sepals and smaller and shorter petals if is compared to Versicolor and Virginica. 
 
-Iris Virginica tends to be the specie with longest and wider petals and sepal.
++ Iris Virginica tends to be the specie with longest and wider petals and sepal.
 
 ### Correlation 
 
@@ -137,6 +140,8 @@ Also, sepal length vs petal width (0.82) and sepal length vs petal length (0.87)
 
 ## How to run Python Code
 
+To start using Python programing language for a data analysis, first of all is to import all libraries and loaded the data set as previously detailed. Then you can start using the following codes to explore the data and outcomes some visualizations as .png.
+
 To explore the data and calculate key statistical measures is used the following code:
 
 ```
@@ -156,7 +161,7 @@ python -m pip install {package_name}
 To save plots or figures:
 
 ``` 
- plt.savefig()
+ plt.savefig('.png')
 ```
 To save a summary in a text file:
 
@@ -256,5 +261,5 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set#:~:text=The%20Iris%20flower%2
 - W3 Schools: https://www.w3schools.com/python/default.asp
 
 
-- Kotu, V., & Deshpande, B. (2019). Data science : concepts and practice. Morgan Kaufmann Publishers, an imprint of Elsevier.
+
 
